@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check out Git repositor
+    - name: Check out Git repository
       uses: actions/checkout@v1
 
     - name: Install newman
